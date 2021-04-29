@@ -1,6 +1,6 @@
 - hosts: all
   become: yes
-  task:
+  tasks:
   - name: Check for sudo package
     yum:
       name: sudo
